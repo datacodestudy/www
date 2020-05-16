@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
     <head>
     <meta charset="UTF-8">
 
@@ -21,10 +21,10 @@
 <link rel="stylesheet" href="/www/css/tony.css">
 <link rel="stylesheet" href="/www/css/remixicon/remixicon.css">
 
-    <link rel="shortcut icon" href="/www/" type="image/x-icon" />
+    <link rel="shortcut icon" href="/www/images/t.jpg" type="image/x-icon" />
     <title>404 Page not found</title>
 
-    <meta name="author" content="" /><meta name="description" content="" />
+    <meta name="author" content="datacodestudy" /><meta name="description" content="" />
 
     
     <link rel="canonical" href="https://datacodestudy.github.io/www/404.html" />
@@ -38,10 +38,12 @@
 
     <div class="header-div1">
         <a href="https://datacodestudy.github.io/www/" style="display:inline-block;">
-            <img src="/www/">
+            <img src="/www/images/t.jpg">
         </a>
     </div>
     <div class="header-div2">
+    <a href="/www/www/"><button class="btn btn-light">Home</button></a>
+    <a href="/www/www/about/"><button class="btn btn-light">About</button></a>
     
 </div>
 </header>
@@ -72,7 +74,7 @@
     </a>
     <div class="footer reveal">
         <p>
-            Copyright&nbsp;&copy;&nbsp;·&nbsp;2020&nbsp;·&nbsp;&nbsp;·&nbsp;
+            Copyright&nbsp;&copy;&nbsp;·&nbsp;2020&nbsp;·&nbsp;datacodestudy&nbsp;·&nbsp;
             <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
             style="text-decoration: none;color: inherit;font-size: 14px;font-weight: 500;">
                 CC BY-NC 4.0
@@ -80,6 +82,8 @@
         </p>
 		<p>
 		    
+                Powered by <a href="https://github.com/gohugoio/hugo">Hugo</a> | Theme is <a href="https://github.com/ThemeTony/hugo-theme-tony">Tony</a>
+			
         </p>
     </div>
 </div>
@@ -94,6 +98,22 @@
     });
 </script>
 
+
+    
+<script>
+(function(){
+	var bp = document.createElement('script');
+	var curProtocol = window.location.protocol.split(':')[0];
+	if (curProtocol === 'https'){
+	 bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+	}
+	else{
+	bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	}
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 <script>
     var $header = $('#header-div'),
@@ -142,6 +162,15 @@
             });
         }
     });
+	
+        var index = document.getElementById("index");
+        var links = index.getElementsByTagName("a");
+
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+            } 
+        }
 	
 	
 </script>
