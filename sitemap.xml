@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://datacodestudy.github.io/www/posts/docs-of-hugo-theme-tony/</loc>
+    <loc>https://datacodestudy.github.io/www/posts/study/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datacodestudy.github.io/www/posts/docs-of-hugo-theme-tony/</loc>
+    <loc>https://datacodestudy.github.io/www/posts/swe22/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/posts/sys40/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/posts/rob02/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/posts/kon24/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/about/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/about/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,7 +63,22 @@
   </url>
   
   <url>
+    <loc>https://datacodestudy.github.io/www/tags/plan/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://datacodestudy.github.io/www/posts/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/study/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/study/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
