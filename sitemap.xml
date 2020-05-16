@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/</loc>
+    <lastmod>2020-05-16T05:48:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/post/</loc>
+    <lastmod>2020-05-16T05:48:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/post/art1/</loc>
+    <lastmod>2020-05-16T05:48:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/post/demo/</loc>
+    <lastmod>2020-05-16T05:43:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/</loc>
+  </url>
+  
+</urlset>
