@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="/www/css/remixicon/remixicon.css">
 
     <link rel="shortcut icon" href="/www/images/t.jpg" type="image/x-icon" />
-    <title>“Artikel”</title>
+    <title>“Demo”</title>
 
     <meta name="author" content="datacodestudy" /><meta name="description" content="" />
 
@@ -42,7 +42,7 @@
         </a>
     </div>
     <div class="header-div2">
-    <a href="/www"><button class="btn btn-light">Home</button></a>
+    <a href="https://datacodestudy.github.io/"><button class="btn btn-light">Home</button></a>
     <a href="/www/www/about/"><button class="btn btn-light">About</button></a>
     
 </div>
@@ -61,35 +61,6 @@
         
         
         
-            
-            
-            
-            <div class="index-div">
-                <div class="single-index">
-                    <h4>
-                        <i class="ri-list-check-2"></i>
-                        TOC
-                    </h4>
-                </div>  
-                <ul id="article-index" class="index-ul">
-                    
-                        
-                        
-                            
-                                
-                                
-                                <a href="#overview">
-                                    <li style="padding-left:23px" class="">
-                                        <i class="ri-checkbox-blank-circle-line"></i>
-                                        &nbsp;&nbsp;Overview
-                                    </li>
-                                </a>
-                            
-                        
-                    
-                </ul>
-            </div>
-        
                     
 
 
@@ -100,11 +71,20 @@
             <div class="index-div-prev">
                 <h4>Newer</h4>
                 <p>
-                    <a href="/www/posts/docs-of-hugo-theme-tony/" rel="next">“Demo”</a>
+                    <a href="/www/docs-of-hugo-theme-tony/" rel="next">“About”</a>
                 </p>
             </div>
         </div>
     
+    
+        <div>
+            <div class="index-div-next">
+                <h4>Older</h4>
+                <p>
+                    <a href="/www/posts/docs-of-hugo-theme-tony/" rel="prev">“Artikel”</a>
+                </p>
+            </div>
+        </div>
     
 
                 </div>
@@ -125,7 +105,7 @@
 <span title="预计阅读时长" class="badge badge-pill badge-danger single-badge post-header">
     1 mins
 </span>
-<h2 class="single-h2">“Artikel”</h2>
+<h2 class="single-h2">“Demo”</h2>
 <div class="article-list-footer">
     <span class="article-list-date">15-05-20</span>
     <span class="article-list-divider">/</span>
@@ -134,8 +114,7 @@
 <div class="single-line"></div>
                     </div>
                     <div class="article-content">
-                        <h1 id="overview">Overview</h1>
-<p>Some overview of the future page</p>
+                        <p>Some demo content to set everything up</p>
 
                     </div>
                     
@@ -243,6 +222,35 @@
         deg += d;
         $tags.each(function(){
             $(this).attr('style','transform:translateX('+ deg + 'px)');
+        });
+    }
+    $tsl.click(function () {
+        if (deg < 0) tagsTransform(60);
+    });
+    $tsr.click(function(){
+        if (deg >= -tagsWidth-36) tagsTransform(-60);
+        if(deg < -tagsWidth-36) {
+            deg = -tagsWidth-36;
+            $tags.each(function(){
+                $(this).attr('style','transform:translateX('+ deg + 'px)');
+            });
+        }
+    });
+	
+        var index = document.getElementById("index");
+        var links = index.getElementsByTagName("a");
+
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+            } 
+        }
+	
+	
+</script>
+
+
+</html>('+ deg + 'px)');
         });
     }
     $tsl.click(function () {
