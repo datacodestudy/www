@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://datacodestudy.github.io/www/docs-of-hugo-theme-tony/</loc>
-    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://datacodestudy.github.io/www/posts/docs-of-hugo-theme-tony/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://datacodestudy.github.io/www/posts/docs-of-hugo-theme-tony/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/about/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/blog/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/blog/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,16 +44,6 @@
   
   <url>
     <loc>https://datacodestudy.github.io/www/tags/</loc>
-    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/blog/</loc>
-    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/blog/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   

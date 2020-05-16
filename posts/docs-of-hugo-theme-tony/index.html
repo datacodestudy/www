@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="/www/css/remixicon/remixicon.css">
 
     <link rel="shortcut icon" href="/www/images/t.jpg" type="image/x-icon" />
-    <title>“Demo”</title>
+    <title>Demo</title>
 
     <meta name="author" content="datacodestudy" /><meta name="description" content="" />
 
@@ -37,7 +37,7 @@
     <header id="header-div" class="tony-header-fixed">
 
     <div class="header-div1">
-        <a href="https://datacodestudy.github.io/www/" style="display:inline-block;">
+        <a href="https://datacodestudy.github.io/www" style="display:inline-block;">
             <img src="/www/images/t.jpg">
         </a>
     </div>
@@ -67,21 +67,12 @@
 
 
     
-        <div>
-            <div class="index-div-prev">
-                <h4>Newer</h4>
-                <p>
-                    <a href="/www/docs-of-hugo-theme-tony/" rel="next">“About”</a>
-                </p>
-            </div>
-        </div>
-    
     
         <div>
             <div class="index-div-next">
                 <h4>Older</h4>
                 <p>
-                    <a href="/www/posts/docs-of-hugo-theme-tony/" rel="prev">“Artikel”</a>
+                    <a href="/www/posts/docs-of-hugo-theme-tony/" rel="prev">Artikel</a>
                 </p>
             </div>
         </div>
@@ -98,14 +89,14 @@
                         
     
         <span class="badge badge-pill badge-danger single-badge">
-            <a href="https://datacodestudy.github.io/www/categories/blog" class="post-header">“Blog”</a>
+            <a href="https://datacodestudy.github.io/www/categories/blog" class="post-header">Blog</a>
         </span>
     
 
 <span title="预计阅读时长" class="badge badge-pill badge-danger single-badge post-header">
     1 mins
 </span>
-<h2 class="single-h2">“Demo”</h2>
+<h2 class="single-h2">Demo</h2>
 <div class="article-list-footer">
     <span class="article-list-date">15-05-20</span>
     <span class="article-list-divider">/</span>
@@ -125,7 +116,7 @@
         </li>
         
             <li class="cat-real" style="display: inline-block;">
-                <a href="https://datacodestudy.github.io/www/tags/blog/" style="font-size: 0.9rem; border-radius: 4px; padding: 1px 12px;">“Blog”</a>
+                <a href="https://datacodestudy.github.io/www/tags/blog/" style="font-size: 0.9rem; border-radius: 4px; padding: 1px 12px;">Blog</a>
             </li>
         
     </ul>
@@ -250,7 +241,23 @@
 </script>
 
 
-</html>('+ deg + 'px)');
+</html>oll');
+    });
+    $header.mouseout(function () {
+        if($SY === 0) setHeader('fixed');
+    });
+    
+    var $tsl = $('#tags-scroll-left'),
+        $tsr = $('#tags-scroll-right'),
+        $tags = $('#post_tags .cat-real');
+    var deg = 0, tagsWidth = 0;
+    for(let i = 0;i < $tags.length;i++){
+        tagsWidth += $tags[i].scrollWidth;
+    }
+    function tagsTransform(d) {
+        deg += d;
+        $tags.each(function(){
+            $(this).attr('style','transform:translateX('+ deg + 'px)');
         });
     }
     $tsl.click(function () {
