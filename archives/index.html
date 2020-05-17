@@ -22,12 +22,12 @@
 <link rel="stylesheet" href="/www/css/remixicon/remixicon.css">
 
     <link rel="shortcut icon" href="/www/images/g.png" type="image/x-icon" />
-    <title>Tags</title>
+    <title>Archives</title>
 
     <meta name="author" content="datacodestudy" /><meta name="description" content="" />
 
     
-    <link rel="canonical" href="https://datacodestudy.github.io/www/tags/" />
+    <link rel="canonical" href="https://datacodestudy.github.io/www/archives/" />
 
     <link href="/css/monokai.min.css" rel="stylesheet">
 <script src="/js/highlight.min.js"></script>
@@ -49,7 +49,6 @@
 </header>
     <body>
         
-    <main id="main">
     <div id="post-container">
         <div class="grid grid-centered" style="max-width: 660px; padding: 0px 20px; margin-top: 80px;">
             <div id="grid-cell" class="grid-cell">
@@ -57,7 +56,7 @@
     <nav class="header-nav reveal">
         <div class="cate-nav">
             <div>
-                <a href="/" title="TonyHe" class="header-logo" style="text-decoration: none;">Tags</a>
+                <a href="/" title="TonyHe" class="header-logo" style="text-decoration: none;">Archives</a>
             </div>
             <div>
                 <a href="https://datacodestudy.github.io/www/" class="nuxt-link-active">
@@ -84,132 +83,65 @@
                         </div>
     
 </div>
-				<ul class="article-list">
-                    <li class="article-list-item reveal index-post-list archive">
-                        <div id="load">
-                            <div class="article-content" style="padding-top: 10px">
-                                
-                                
-                                    
-                                    
-                                        <a href="/www/tags/blog/"><button class="btn btn-light">Blog</button></a>
-                                    
+                <ul class="article-list">
+                    
+                    
+                        <li class="article-list-item reveal index-post-list archive">
+                            <h2>2020</h2>
+                            
+                                <h3>2020 / 5</h3>
                                 
                                     
-                                    
-                                        <a href="/www/tags/about/"><button class="btn btn-light">About</button></a>
-                                    
-                                
-                                    
-                                    
-                                        <a href="/www/tags/archive/"><button class="btn btn-light">Archive</button></a>
+                                        <div>
+                                            <a href="/www/posts/study/" class="post-a">
+                                                <p>
+                                                    <em class="post-date">2020-05-15</em>
+                                                    Overview
+                                                </p>
+                                            </a>
+                                        </div>
                                     
                                 
                                     
-                                    
-                                        <a href="/www/tags/plan/"><button class="btn btn-light">Plan</button></a>
+                                        <div>
+                                            <a href="/www/posts/rob02/" class="post-a">
+                                                <p>
+                                                    <em class="post-date">2020-05-15</em>
+                                                    Bildbearbeitung und Korrektur
+                                                </p>
+                                            </a>
+                                        </div>
                                     
                                 
                                     
-                                    
-                                        <a href="/www/tags/study/"><button class="btn btn-light">Study</button></a>
+                                        <div>
+                                            <a href="/www/posts/sys40/" class="post-a">
+                                                <p>
+                                                    <em class="post-date">2020-05-15</em>
+                                                    Flüssigkeitsbehälter ohne Interaktion
+                                                </p>
+                                            </a>
+                                        </div>
                                     
                                 
-                            </div>
-                        </div>
-                    </li>
-				</ul>
+                                    
+                                        <div>
+                                            <a href="/www/posts/swe22/" class="post-a">
+                                                <p>
+                                                    <em class="post-date">2020-05-15</em>
+                                                    Softwareentwicklung Petri-Netz
+                                                </p>
+                                            </a>
+                                        </div>
+                                    
+                                
+                            
+                        </li>
+                    
+                </ul>
             </div>
         </div>
     </div>
-	<script src="/www/js/jquery.min.js"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="/js/medium-zoom.min.js"></script>
-<script>
-	mediumZoom(document.querySelectorAll('div.article-content img'), {
-        background: '#fff'
-    });
-</script>
-
-
-    
-<script>
-(function(){
-	var bp = document.createElement('script');
-	var curProtocol = window.location.protocol.split(':')[0];
-	if (curProtocol === 'https'){
-	 bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-	}
-	else{
-	bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-	}
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
-<script>
-    var $header = $('#header-div'),
-        $readingBar = $('#reading-bar'),
-        $SY = $(window).scrollTop();
-    function setHeader(type) {
-        $header.attr('class','tony-header-' + type);
-    }
-    $(window).scroll(function () {
-        $SY = $(window).scrollTop();
-        if ($readingBar) {
-            $readingBar.attr('style', 'width: ' + $(document).scrollTop()/($(document).height()-$(window).height())*100 + '%');
-        }
-        if ($SY > 0) setHeader('scroll');
-        else setHeader('fixed');
-    });
-    $header.hover(function () {
-        setHeader('scroll');
-    });
-    $header.mouseout(function () {
-        if($SY === 0) setHeader('fixed');
-    });
-    
-    var $tsl = $('#tags-scroll-left'),
-        $tsr = $('#tags-scroll-right'),
-        $tags = $('#post_tags .cat-real');
-    var deg = 0, tagsWidth = 0;
-    for(let i = 0;i < $tags.length;i++){
-        tagsWidth += $tags[i].scrollWidth;
-    }
-    function tagsTransform(d) {
-        deg += d;
-        $tags.each(function(){
-            $(this).attr('style','transform:translateX('+ deg + 'px)');
-        });
-    }
-    $tsl.click(function () {
-        if (deg < 0) tagsTransform(60);
-    });
-    $tsr.click(function(){
-        if (deg >= -tagsWidth-36) tagsTransform(-60);
-        if(deg < -tagsWidth-36) {
-            deg = -tagsWidth-36;
-            $tags.each(function(){
-                $(this).attr('style','transform:translateX('+ deg + 'px)');
-            });
-        }
-    });
-	
-        var index = document.getElementById("index");
-        var links = index.getElementsByTagName("a");
-
-        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-            if (links[i].hostname != window.location.hostname) {
-                links[i].target = '_blank';
-            } 
-        }
-	
-	
-</script>
-
-
-</main>
 
     </body>
     <div>
