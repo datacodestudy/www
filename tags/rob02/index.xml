@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rob02 on Study website</title>
+    <link>https://datacodestudy.github.io/tags/rob02/</link>
+    <description>Recent content in rob02 on Study website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 13:37:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://datacodestudy.github.io/tags/rob02/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bildbearbeitung und Bildkorrektur</title>
+      <link>https://datacodestudy.github.io/2020/05/bildbearbeitung-und-bildkorrektur/</link>
+      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/2020/05/bildbearbeitung-und-bildkorrektur/</guid>
+      <description>&lt;p&gt;Hier stehen die wichtigsten Fortschritte für das Assignment SYS40.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

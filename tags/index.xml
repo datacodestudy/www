@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://datacodestudy.github.io/www/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Study website</title>
+    <link>https://datacodestudy.github.io/tags/</link>
+    <description>Recent content in Tags on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 13:37:01 +0200</lastBuildDate>
     
-	<atom:link href="https://datacodestudy.github.io/www/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://datacodestudy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>assignment</title>
+      <link>https://datacodestudy.github.io/tags/assignment/</link>
+      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/tags/assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rob02</title>
+      <link>https://datacodestudy.github.io/tags/rob02/</link>
+      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/tags/rob02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sys40</title>
+      <link>https://datacodestudy.github.io/tags/sys40/</link>
+      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/tags/sys40/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swe22</title>
+      <link>https://datacodestudy.github.io/tags/swe22/</link>
+      <pubDate>Tue, 19 May 2020 13:08:36 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/tags/swe22/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
