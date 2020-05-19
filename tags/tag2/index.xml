@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag2 on Study website</title>
+    <link>https://datacodestudy.github.io/www/tags/tag2/</link>
+    <description>Recent content in tag2 on Study website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 15:52:12 +0200</lastBuildDate>
+    
+	<atom:link href="https://datacodestudy.github.io/www/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo</title>
+      <link>https://datacodestudy.github.io/www/2020/05/demo/</link>
+      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/demo/</guid>
+      <description>&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://datacodestudy.github.io/www/page/project/</link>
+      <pubDate>Tue, 19 May 2020 15:44:26 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/page/project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
