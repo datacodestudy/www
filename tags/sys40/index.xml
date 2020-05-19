@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sys40 on Study website</title>
-    <link>https://datacodestudy.github.io/tags/sys40/</link>
+    <link>https://datacodestudy.github.io/www/tags/sys40/</link>
     <description>Recent content in sys40 on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 May 2020 13:37:01 +0200</lastBuildDate>
     
-	<atom:link href="https://datacodestudy.github.io/tags/sys40/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://datacodestudy.github.io/www/tags/sys40/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zwei Flüssigkeitsbehälter ohne Interaktion</title>
-      <link>https://datacodestudy.github.io/2020/05/zwei-fl%C3%BCssigkeitsbeh%C3%A4lter-ohne-interaktion/</link>
+      <link>https://datacodestudy.github.io/www/2020/05/zwei-fl%C3%BCssigkeitsbeh%C3%A4lter-ohne-interaktion/</link>
       <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
       
-      <guid>https://datacodestudy.github.io/2020/05/zwei-fl%C3%BCssigkeitsbeh%C3%A4lter-ohne-interaktion/</guid>
+      <guid>https://datacodestudy.github.io/www/2020/05/zwei-fl%C3%BCssigkeitsbeh%C3%A4lter-ohne-interaktion/</guid>
       <description>&lt;p&gt;Hier stehen die wichtigsten Fortschritte für das Assignment SYS40.&lt;/p&gt;</description>
     </item>
     

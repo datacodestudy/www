@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>swe22 on Study website</title>
-    <link>https://datacodestudy.github.io/tags/swe22/</link>
+    <link>https://datacodestudy.github.io/www/tags/swe22/</link>
     <description>Recent content in swe22 on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 May 2020 13:08:36 +0200</lastBuildDate>
     
-	<atom:link href="https://datacodestudy.github.io/tags/swe22/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://datacodestudy.github.io/www/tags/swe22/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Softwareentwicklung Petri-Netz</title>
-      <link>https://datacodestudy.github.io/2020/05/softwareentwicklung-petri-netz/</link>
+      <link>https://datacodestudy.github.io/www/2020/05/softwareentwicklung-petri-netz/</link>
       <pubDate>Tue, 19 May 2020 13:08:36 +0200</pubDate>
       
-      <guid>https://datacodestudy.github.io/2020/05/softwareentwicklung-petri-netz/</guid>
+      <guid>https://datacodestudy.github.io/www/2020/05/softwareentwicklung-petri-netz/</guid>
       <description>&lt;p&gt;Hier stehen die wichtigsten Fortschritte für das Assignment SWE22.&lt;/p&gt;</description>
     </item>
     
