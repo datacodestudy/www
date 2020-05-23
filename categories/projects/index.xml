@@ -6,10 +6,46 @@
     <description>Recent content in Projects on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 15:52:12 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 11:58:01 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pysimplegui - Graph Element</title>
+      <link>https://datacodestudy.github.io/www/2020/05/pysimplegui-graph-element/</link>
+      <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/pysimplegui-graph-element/</guid>
+      <description>&lt;p&gt;More about the Graph Element&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PySimpleGUI - High Level API</title>
+      <link>https://datacodestudy.github.io/www/2020/05/pysimplegui-high-level-api/</link>
+      <pubDate>Wed, 20 May 2020 23:15:24 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/pysimplegui-high-level-api/</guid>
+      <description>&lt;p&gt;More about the High Level API Calls - Popup&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PySimpleGUI - Features</title>
+      <link>https://datacodestudy.github.io/www/2020/05/pysimplegui-features/</link>
+      <pubDate>Wed, 20 May 2020 22:37:22 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/pysimplegui-features/</guid>
+      <description>&lt;p&gt;Features of PySimpleGUI&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://datacodestudy.github.io/www/2020/05/python/</link>
+      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/python/</guid>
+      <description>&lt;p&gt;Here I&amp;rsquo;ll write more about Python&amp;hellip;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Demo</title>

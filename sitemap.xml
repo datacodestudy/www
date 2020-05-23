@@ -3,8 +3,108 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://datacodestudy.github.io/www/categories/assignment/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/assignment/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://datacodestudy.github.io/www/categories/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/getting-started-build-demo-guis-with-graph/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/post/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/studium/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/swe22/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/</loc>
+    <lastmod>2020-05-21T16:51:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/petri-netz-definition-erkl%C3%A4rung-und-eigenschaften/</loc>
+    <lastmod>2020-05-21T14:51:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/features/</loc>
+    <lastmod>2020-05-21T11:58:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/projects/</loc>
+    <lastmod>2020-05-21T11:58:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/pysimplegui/</loc>
+    <lastmod>2020-05-21T11:58:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/pysimplegui-graph-element/</loc>
+    <lastmod>2020-05-21T11:58:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/python/</loc>
+    <lastmod>2020-05-21T11:58:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/pysimplegui-high-level-api/</loc>
+    <lastmod>2020-05-20T23:15:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/pysimplegui-features/</loc>
+    <lastmod>2020-05-20T22:37:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/05/python/</loc>
+    <lastmod>2020-05-20T22:31:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/subcategory/</loc>
+    <lastmod>2020-05-20T22:31:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/tag1/</loc>
+    <lastmod>2020-05-20T22:31:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/tag2/</loc>
+    <lastmod>2020-05-20T22:31:13+02:00</lastmod>
   </url>
   
   <url>
@@ -14,36 +114,6 @@
   
   <url>
     <loc>https://datacodestudy.github.io/www/2020/05/demo/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/post/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/projects/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/tag1/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/tag2/</loc>
-    <lastmod>2020-05-19T15:52:12+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/</loc>
     <lastmod>2020-05-19T15:52:12+02:00</lastmod>
   </url>
   
@@ -58,27 +128,12 @@
   </url>
   
   <url>
-    <loc>https://datacodestudy.github.io/www/categories/assignment/</loc>
-    <lastmod>2020-05-19T13:37:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/assignment/</loc>
-    <lastmod>2020-05-19T13:37:01+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://datacodestudy.github.io/www/2020/05/bildbearbeitung-und-bildkorrektur/</loc>
     <lastmod>2020-05-19T13:37:01+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://datacodestudy.github.io/www/tags/rob02/</loc>
-    <lastmod>2020-05-19T13:37:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/studium/</loc>
     <lastmod>2020-05-19T13:37:01+02:00</lastmod>
   </url>
   
@@ -94,11 +149,6 @@
   
   <url>
     <loc>https://datacodestudy.github.io/www/2020/05/softwareentwicklung-petri-netz/</loc>
-    <lastmod>2020-05-19T13:08:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/swe22/</loc>
     <lastmod>2020-05-19T13:08:36+02:00</lastmod>
   </url>
   

@@ -6,33 +6,15 @@
     <description>Recent content in Categories on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 15:52:12 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 16:51:40 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Demo</title>
-      <link>https://datacodestudy.github.io/www/categories/demo/</link>
-      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/categories/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://datacodestudy.github.io/www/categories/projects/</link>
-      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Assignment</title>
       <link>https://datacodestudy.github.io/www/categories/assignment/</link>
-      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      <pubDate>Thu, 21 May 2020 16:51:40 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/categories/assignment/</guid>
       <description></description>
@@ -41,9 +23,45 @@
     <item>
       <title>Studium</title>
       <link>https://datacodestudy.github.io/www/categories/studium/</link>
-      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
+      <pubDate>Thu, 21 May 2020 16:51:40 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/categories/studium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://datacodestudy.github.io/www/categories/features/</link>
+      <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://datacodestudy.github.io/www/categories/projects/</link>
+      <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
+      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://datacodestudy.github.io/www/categories/demo/</link>
+      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/demo/</guid>
       <description></description>
     </item>
     

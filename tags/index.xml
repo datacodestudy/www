@@ -6,15 +6,51 @@
     <description>Recent content in Tags on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 15:52:12 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 16:51:40 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>assignment</title>
+      <link>https://datacodestudy.github.io/www/tags/assignment/</link>
+      <pubDate>Thu, 21 May 2020 16:51:40 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swe22</title>
+      <link>https://datacodestudy.github.io/www/tags/swe22/</link>
+      <pubDate>Thu, 21 May 2020 16:51:40 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/swe22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySimpleGUI</title>
+      <link>https://datacodestudy.github.io/www/tags/pysimplegui/</link>
+      <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/pysimplegui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://datacodestudy.github.io/www/tags/python/</link>
+      <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tag1</title>
       <link>https://datacodestudy.github.io/www/tags/tag1/</link>
-      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
+      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/tag1/</guid>
       <description></description>
@@ -23,18 +59,9 @@
     <item>
       <title>tag2</title>
       <link>https://datacodestudy.github.io/www/tags/tag2/</link>
-      <pubDate>Tue, 19 May 2020 15:52:12 +0200</pubDate>
+      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>assignment</title>
-      <link>https://datacodestudy.github.io/www/tags/assignment/</link>
-      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/assignment/</guid>
       <description></description>
     </item>
     
@@ -53,15 +80,6 @@
       <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/sys40/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>swe22</title>
-      <link>https://datacodestudy.github.io/www/tags/swe22/</link>
-      <pubDate>Tue, 19 May 2020 13:08:36 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/swe22/</guid>
       <description></description>
     </item>
     
