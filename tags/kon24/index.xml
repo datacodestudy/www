@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kon24 on Study website</title>
+    <link>https://datacodestudy.github.io/www/tags/kon24/</link>
+    <description>Recent content in kon24 on Study website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 May 2020 22:43:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://datacodestudy.github.io/www/tags/kon24/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Konstruktionsbericht Kosmetikmaschine</title>
+      <link>https://datacodestudy.github.io/www/2020/05/konstruktionsbericht-kosmetikmaschine/</link>
+      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/konstruktionsbericht-kosmetikmaschine/</guid>
+      <description>&lt;p&gt;Hier stehen die wichtigsten Fortschritte für das Assignment SYS40.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2020 16:51:40 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 22:43:04 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>assignment</title>
       <link>https://datacodestudy.github.io/www/tags/assignment/</link>
-      <pubDate>Thu, 21 May 2020 16:51:40 +0200</pubDate>
+      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kon24</title>
+      <link>https://datacodestudy.github.io/www/tags/kon24/</link>
+      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/kon24/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in assignment on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2020 16:51:40 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 22:43:04 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/tags/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Konstruktionsbericht Kosmetikmaschine</title>
+      <link>https://datacodestudy.github.io/www/2020/05/konstruktionsbericht-kosmetikmaschine/</link>
+      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/05/konstruktionsbericht-kosmetikmaschine/</guid>
+      <description>&lt;p&gt;Hier stehen die wichtigsten Fortschritte für das Assignment SYS40.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Getting Started - Build Demo GUIs with Graph</title>
