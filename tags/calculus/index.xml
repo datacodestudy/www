@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>subcategory on Study website</title>
-    <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
-    <description>Recent content in subcategory on Study website</description>
+    <title>calculus on Study website</title>
+    <link>https://datacodestudy.github.io/www/tags/calculus/</link>
+    <description>Recent content in calculus on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 May 2020 09:10:07 +0200</lastBuildDate>
     
-	<atom:link href="https://datacodestudy.github.io/www/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://datacodestudy.github.io/www/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://datacodestudy.github.io/www/2020/05/calculus-master-1/</guid>
       <description>&lt;p&gt;In this post I&amp;rsquo;ll write more about the plan to master calculus.&lt;/p&gt;
 &lt;p&gt;There will be 3 section.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://datacodestudy.github.io/www/2020/05/python/</link>
-      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/2020/05/python/</guid>
-      <description>&lt;p&gt;Here I&amp;rsquo;ll write more about Python&amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>

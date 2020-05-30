@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2020 22:43:04 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 09:10:07 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calculus</title>
+      <link>https://datacodestudy.github.io/www/categories/calculus/</link>
+      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/calculus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
+      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/subcategory/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assignment</title>
@@ -44,15 +62,6 @@
       <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>subcategory</title>
-      <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
-      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/categories/subcategory/</guid>
       <description></description>
     </item>
     
