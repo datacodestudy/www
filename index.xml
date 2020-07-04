@@ -6,10 +6,57 @@
     <description>Recent content on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2020 09:10:07 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 17:28:51 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Systemdynamik</title>
+      <link>https://datacodestudy.github.io/www/2020/06/systemdynamik/</link>
+      <pubDate>Sat, 20 Jun 2020 17:28:51 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/systemdynamik/</guid>
+      <description>&lt;p&gt;Die erste Einführung in die Systemdynamik&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bildverarbeitung</title>
+      <link>https://datacodestudy.github.io/www/2020/06/bildverarbeitung/</link>
+      <pubDate>Sun, 14 Jun 2020 12:59:32 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/bildverarbeitung/</guid>
+      <description>&lt;p&gt;Steps for Image Processing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Petrinetz - Einleitung</title>
+      <link>https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/</guid>
+      <description>&lt;p&gt;Eine Einleitug in die Petri-Netze&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://datacodestudy.github.io/www/2020/06/image-processing/</link>
+      <pubDate>Mon, 08 Jun 2020 14:52:50 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/image-processing/</guid>
+      <description>&lt;p&gt;My examples for image processing&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://datacodestudy.github.io/www/2020/06/c-/</link>
+      <pubDate>Sun, 07 Jun 2020 00:16:39 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/c-/</guid>
+      <description>&lt;h1 id=&#34;workshop-of-packt&#34;&gt;Workshop of Packt&lt;/h1&gt;
+&lt;h2 id=&#34;welcome-to-the-c-workshop&#34;&gt;Welcome to The C++ Workshop&lt;/h2&gt;
+&lt;p&gt;Thank you for purchasing The C++ Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Calculus Master 1</title>

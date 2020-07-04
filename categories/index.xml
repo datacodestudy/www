@@ -6,33 +6,15 @@
     <description>Recent content in Categories on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2020 09:10:07 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 17:28:51 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Calculus</title>
-      <link>https://datacodestudy.github.io/www/categories/calculus/</link>
-      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/categories/calculus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>subcategory</title>
-      <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
-      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/categories/subcategory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Assignment</title>
       <link>https://datacodestudy.github.io/www/categories/assignment/</link>
-      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
+      <pubDate>Sat, 20 Jun 2020 17:28:51 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/categories/assignment/</guid>
       <description></description>
@@ -41,9 +23,54 @@
     <item>
       <title>Studium</title>
       <link>https://datacodestudy.github.io/www/categories/studium/</link>
-      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
+      <pubDate>Sat, 20 Jun 2020 17:28:51 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/categories/studium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>category</title>
+      <link>https://datacodestudy.github.io/www/categories/category/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://datacodestudy.github.io/www/categories/subcategory/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://datacodestudy.github.io/www/categories/image-processing/</link>
+      <pubDate>Mon, 08 Jun 2020 14:52:50 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://datacodestudy.github.io/www/categories/c&#43;&#43;/</link>
+      <pubDate>Sun, 07 Jun 2020 00:16:39 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculus</title>
+      <link>https://datacodestudy.github.io/www/categories/calculus/</link>
+      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/categories/calculus/</guid>
       <description></description>
     </item>
     

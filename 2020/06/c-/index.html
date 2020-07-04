@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.73.0 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="datacodestudy">
+<meta name="keywords" content="tech">
+<meta name="description" content="Workshop of Packt
+Welcome to The C&#43;&#43; Workshop
+Thank you for purchasing The C&#43;&#43; Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.">
+
+
+<meta property="og:description" content="Workshop of Packt
+Welcome to The C&#43;&#43; Workshop
+Thank you for purchasing The C&#43;&#43; Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C&#43;&#43;">
+<meta name="twitter:title" content="C&#43;&#43;">
+<meta property="og:url" content="https://datacodestudy.github.io/www/2020/06/c-/">
+<meta property="twitter:url" content="https://datacodestudy.github.io/www/2020/06/c-/">
+<meta property="og:site_name" content="Study website">
+<meta property="og:description" content="Workshop of Packt
+Welcome to The C&#43;&#43; Workshop
+Thank you for purchasing The C&#43;&#43; Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.">
+<meta name="twitter:description" content="Workshop of Packt
+Welcome to The C&#43;&#43; Workshop
+Thank you for purchasing The C&#43;&#43; Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-06-07T00:16:39">
+  
+  
+    <meta property="article:modified_time" content="2020-06-07T00:16:39">
+  
+  
+  
+    
+      <meta property="article:section" content="c&#43;&#43;">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="tag1">
+    
+      <meta property="article:tag" content="tag2">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png">
+
+
+    <title>C&#43;&#43;</title>
+
+    <link rel="icon" href="https://datacodestudy.github.io/www/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://datacodestudy.github.io/www/2020/06/c-/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://datacodestudy.github.io/www/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://datacodestudy.github.io/www/">Study website</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://datacodestudy.github.io/www/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://datacodestudy.github.io/www/#about">
+          <img class="sidebar-profile-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">datacodestudy</h4>
+        
+          <h5 class="sidebar-profile-bio"><strong>stay curious</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/categories/projects/">
+    
+      <i class="sidebar-button-icon fa fa-terminal"></i>
+      
+      <span class="sidebar-button-desc">Projects</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/datacodestudy" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      C&#43;&#43;
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-06-07T00:16:39&#43;02:00">
+        
+  June 7, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://datacodestudy.github.io/www/categories/c&#43;&#43;">c&#43;&#43;</a>, 
+    
+      <a class="category-link" href="https://datacodestudy.github.io/www/categories/subcategory">subcategory</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h1 id="workshop-of-packt">Workshop of Packt</h1>
+<h2 id="welcome-to-the-c-workshop">Welcome to The C++ Workshop</h2>
+<p>Thank you for purchasing The C++ Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.</p>
+<h3 id="overview">Overview</h3>
+<ul>
+<li>Workshop Onboarding</li>
+<li>Welcome to The C++ Workshop</li>
+<li>Installation and Setup</li>
+<li>Credits</li>
+</ul>
+<ol>
+<li>Your First C++ Application</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Advantages of C++</li>
+<li>Excercise 1: Compiling Our First Application</li>
+<li>Build Pipline</li>
+<li>Keywords</li>
+<li>Preprocessor Directives</li>
+<li>Excercise 2: Defining Values with Preprocessor Directives</li>
+<li>Basic I/O Statements</li>
+<li>Reading User Details</li>
+<li>Functions</li>
+<li>Activity 1: Writing Your Own C++ Application</li>
+<li>Summary</li>
+<li>Quiz 1</li>
+</ul>
+<ol start="2">
+<li>Control Flow</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>if/else</li>
+<li>Exercise 5: Implementing if/else Statements</li>
+<li>Exercise 6: Creating a Simple Menu Program Using an if/else Statement</li>
+<li>switch/case</li>
+<li>Exercise 7: Refactor an if/else Chain into switch/case</li>
+<li>Loops</li>
+<li>Exercise 8: Implementing a while Loop</li>
+<li>do while</li>
+<li>Exercise 9: Implementing a while and do while Loops with a False Condition</li>
+<li>for</li>
+<li>Exercise 10: Implementin a for Loop</li>
+<li>Exercise 11: Generatin Random Numers Using Loops</li>
+<li>break/continue</li>
+<li>Exercise 12: Making a Loop More Efficient Using break and continue</li>
+<li>Activity 2: Creating a Number-Guessing Game Using Loops and Conditional Statements</li>
+<li>Summary</li>
+<li>Quiz 2</li>
+</ul>
+<ol start="3">
+<li>Built-In Data Types</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Data Types</li>
+<li>Exercise 13: Declaring Data Types</li>
+<li>Containers</li>
+<li>Exercise 14: Implementing Containers to Store Usernames</li>
+<li>Exercise 15: Using Mulidimensional Arrays to Store More Data</li>
+<li>Vectors</li>
+<li>Exercise 16: Looping over a Vector</li>
+<li>Initialization</li>
+<li>Exercise 17: Modifying a Vector</li>
+<li>Classes/Structs</li>
+<li>Exercise 18: Using Accessibility Modifers to Control Access</li>
+<li>Constructors/Destructors</li>
+<li>Exercise 19: Classes/Struct</li>
+<li>Exercise 20: Storage Lifetime Example</li>
+<li>Static</li>
+<li>Activity 3: Sign-Up Application</li>
+<li>Summary</li>
+<li>Quiz 3</li>
+<li>Survey</li>
+</ul>
+<ol start="4">
+<li>Operators</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Arithmetic Operators</li>
+<li>Exercise 21: The Prime Number Checker</li>
+<li>Relational Operators</li>
+<li>Exercise 22: The Time-of-Day Calculator</li>
+<li>Unary Operators</li>
+<li>Exercise 23: A Pre-Increment/Post-Increment Example</li>
+<li>Assignment Operators</li>
+<li>Exercise 24: Logical Operators Example</li>
+<li>Operator Overloading</li>
+<li>Exercise 25 Operator Example</li>
+<li>Bitwise Operators</li>
+<li>Activity 4: Fizz Buss</li>
+<li>Summary</li>
+<li>Quiz 4</li>
+</ul>
+<ol start="5">
+<li>Pointers and References</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Memory Addresses</li>
+<li>Exercise 26: Pointers</li>
+<li>Exercise 27: Dereferencing nullptr</li>
+<li>Exercise 28: Pointers to Arrays</li>
+<li>Exercise 29: Pointer Arithmetic</li>
+<li>Exercise 30 Incrementing POinters</li>
+<li>Exercise 31: Pointers to Pointers</li>
+<li>Exercise 32: References</li>
+<li>Exercise 33: Bad References</li>
+<li>Exercise 34 Pointer as Function Arguments</li>
+<li>Exercise 35: Pointers to Class Instance</li>
+<li>Exercise 36: References as Function Arguments</li>
+<li>Activity 5: Using Pointers and References to Manipulate an Array of Strings</li>
+<li>Summary</li>
+<li>Quiz 5</li>
+</ul>
+<ol start="6">
+<li>Dynamic Variables</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Dynamic Variables</li>
+<li>Exercise 37: Creating and Deleting Dynamic Variables of Basic Types</li>
+<li>Exercise 38: Creating and Deleting Dynamic Class Instances</li>
+<li>Exercise 39: Creating and Deleting Dynamic Arrays of Basic Types</li>
+<li>Exercise 40: Creating and Deleting Dynamic Arrays of Classes</li>
+<li>Exercise 41: Using a Dynamic Variable before Creating It</li>
+<li>Exercise 42: Using a Dynamic Variable after Deleting It</li>
+<li>Exercise 43: Not Deleting a Dynamic Variable</li>
+<li>Exercise 44: Overwriting a Pointer to a Dynamic Variable</li>
+<li>Exercise 45: Deleting a Dynamic Variable Twice</li>
+<li>Exercise 46: Deleting a Dynamic Array with delete instead of delete[]</li>
+<li>Exercise 47: Deleting a Dynamic with delete[] instead of delete</li>
+<li>Dynamic Containers</li>
+<li>Exercise 48: Creating Linked Lists of Class Instances</li>
+<li>Activity 6: : Creating a Binary Search Trees of Class Instances</li>
+<li>Summary</li>
+<li>Quiz 6</li>
+</ul>
+<ol start="7">
+<li>Ownership and Lifetime of Dynamic Variables</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>The Lifetime of Dynamic Variables</li>
+<li>Exercise 49: Lifetime Demonstration</li>
+<li>Exercise 50: Owned Pointers in Data Structures</li>
+<li>Exercise 51: Transfer of Ownership</li>
+<li>Smart Pointers - Automated Ownership of Dynamic Variables</li>
+<li>Exercise 52: Working with unique_ptr&lt;&gt;</li>
+<li>Exercise 53: Using make_unique()</li>
+<li>Exercise 54: Using unique_ptr&lt;&gt; as a Class Member Variable</li>
+<li>Exercise 55: Using unique_ptr&lt;&gt; in Function Return Values</li>
+<li>Exercise 56: Using shared_ptr&lt;&gt;</li>
+<li>Exercise 57: Using make_shared()</li>
+<li>Activity 7: Storing the Words of a Book Using Dynamic Variables</li>
+<li>Summary</li>
+<li>Quiz 7</li>
+</ul>
+<ol start="8">
+<li>Classes and Structs</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Classes versus Structs</li>
+<li>Unions</li>
+<li>Constructors and Destructors</li>
+<li>Exercise 58: Defining a Default Constructor</li>
+<li>Exercise 59: Defining a Parametrized Constructor</li>
+<li>Copy Constructors</li>
+<li>Exercise 60: Defining a Copy Constructor</li>
+<li>Copy Assignment Operator</li>
+<li>Exercise 61: Overloading the Assignment Operator</li>
+<li>Destructors</li>
+<li>Activity 8: Creating a VideoClip Class</li>
+<li>Summary</li>
+<li>Quiz 8</li>
+</ul>
+<ol start="9">
+<li>Object-Oriented Principles</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Classes and OOP</li>
+<li>Exercise 62: Creating a Class that Prints Values</li>
+<li>Encapsulation</li>
+<li>Exercise 63: Creating a Position Class with Private Member Variables</li>
+<li>Getters and Setters</li>
+<li>Exercise 64: Getters and Setters in a Position Class</li>
+<li>Return Value or Reference</li>
+<li>Activity 9: A Basic RPG Combat System</li>
+<li>Summary</li>
+<li>Quiz 9</li>
+</ul>
+<ol start="10">
+<li>Advanced Object Oriented Principles</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Inheritance</li>
+<li>Exercise 65: Inheritance</li>
+<li>Multiple Inheritance</li>
+<li>Exercise 66: Multiple Inheritance</li>
+<li>Exercise 67: Access Modifiers and Inheritance</li>
+<li>Virtual Functions</li>
+<li>Exercise 68: Virtual Functions</li>
+<li>Exercise 69: Polymorphism</li>
+<li>Casting between Types</li>
+<li>Exercise 70: Casting</li>
+<li>Activity 10: An Encyclopedia Application</li>
+<li>Summary</li>
+<li>Quiz 10</li>
+</ul>
+<ol start="11">
+<li>Templates</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Exercise 71: Creating Different Types for the Position Objects</li>
+<li>Multiple Template Parameters</li>
+<li>Exercise 72: Comparing Position Vales Using a Template Function</li>
+<li>Template Specialization</li>
+<li>Creating a Generic Queue</li>
+<li>Activity 11: Creating a Generic Stack</li>
+<li>Summary</li>
+<li>Quiz 11</li>
+</ul>
+<ol start="12">
+<li>Containers and Iterators</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Containers</li>
+<li>Exercise 73: Creating Strings</li>
+<li>Assigning to Strings</li>
+<li>Exercise 74: Is it a Palindrome?</li>
+<li>Vectors- Handy, Resizable Arrays</li>
+<li>Accessing Elements in a Vector</li>
+<li>Operations on Vectors</li>
+<li>Exercise 76: Sorting Vectors with a Custom Comparision</li>
+<li>Map/Unordered Map: Our Associative Containers</li>
+<li>Exercise 77: Map Quiz</li>
+<li>Exercise 78: A Custom Comparator for a Set</li>
+<li>Exercise 79: Using a Set to Get the Numer of Unique Elements in a Multiset</li>
+<li>Queues/Stacks</li>
+<li>Activity 12: Converting RPG Combat to Use Standard Library Containers</li>
+<li>Summary</li>
+<li>Quiz 12</li>
+</ul>
+<ol start="13">
+<li>Exception Handling in C++</li>
+</ol>
+<ul>
+<li>Overview</li>
+<li>Responding to Unexpected Events</li>
+<li>Exercise 80: Throwing Uncaught Exceptions</li>
+<li>Catching Exceptions</li>
+<li>Exercise 81: try/catch Blocks</li>
+<li>Exercise 82: Exections Thrown by C++</li>
+<li>Unwinding the Stack</li>
+<li>Exercise 83: Unwinding the Stack</li>
+<li>Activity 13: Handling Exceptions</li>
+<li>Summary</li>
+<li>Quiz 13</li>
+</ul>
+<ol start="14">
+<li>Activity Solutions</li>
+</ol>
+<ul>
+<li>Activity 1: Write Your Own C++ Application</li>
+<li>Activity 2: Creating a Number-Guessing Game Using Loops and Conditional Statemets</li>
+<li>Activity 3: Sign-Up Application</li>
+<li>Activity 4: Fizz Buzz</li>
+<li>Activity 5: Using Pointes and References to Manipulate an Array of Strings</li>
+<li>Activity 6: Creating Binary Search Trees of Class Instances</li>
+<li>Activity 7: Stroing the Words of a Book Using Dynamics Variables</li>
+<li>Activity 8: Creating a Video Clip Class</li>
+<li>Activity 9: A Basic RPG Combat System</li>
+<li>Activity 10: An Encyclopedia Application</li>
+<li>Activity 11: Creating a Generic Stack</li>
+<li>Activity 12: Converting RPG Combat to Use Standard Library Containers</li>
+<li>Activity 13: Handling Exceptions</li>
+</ul>
+<ol start="15">
+<li>Post Assessment</li>
+</ol>
+<ul>
+<li>Post Assessment</li>
+</ul>
+<p>As you work through the material, you&rsquo;ll notice that all practical hands-on elements in the course (which we call <strong>exercises</strong> and <strong>activities</strong>) start by walking through a step-by-step reference implementation, followed by an instructor screencast. We recommend that you try to follow the step-by-step instructions for each practical task first, <em>before</em> walking through the guided example with an instructor.</p>
+<p>Taking this approach helps hack your brain, building and reinforcing your learning. It helps with embedding core concepts so that the stick with you for the years ahead. This is also why you&rsquo;ll periodically come across knowledge-check events in the informal quizzes. They&rsquo;re not graded and ther is zero pressure; they&rsquo;re just there to help you benchmark and lock-in what you&rsquo;ve worked through over the duration of the course.</p>
+<p>If you find yourself getting a lot of summary questions incorrect, it&rsquo;s worth stepping back taking a break and revisiting a section another time. This fits in with a general rule; don&rsquo;t be too hard on yourself! Learning is not an instantaneos process, and is best conducted in chunks over a longer period of time. We&rsquo;ve structered the course so that you can dip in and out to meet your needs, with quizzes and exercises acting as useful self-diagnostic tools.</p>
+<h2 id="activities-and-exercises">Activities and Exercises</h2>
+<p>One last thing we should mention is the difference between exercises and activities. Exercises are completely end-to-end and step-by-step. Combined with instructor screencasts, you should never get stuck or be left wondering why something isn&rsquo;t working.</p>
+<p>Activities start of the same as exercises, but leave you with open-ended expansion points for self-study and exploration. It&rsquo;s absolutely worth stepping back and spending some time on extending activities. The process helps to extend your frame of reference and apply your own creative input to what you&rsquo;ve just learned, further embedding your new skills. Just in case you run into some roadblocks, at the ende of the course you&rsquo;ll still find reference solutions for all activities.</p>
+<p>With the methodology of the course out of the way, let&rsquo;s move on to installation and setup!</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://datacodestudy.github.io/www/tags/tag1/">tag1</a>
+
+  <a class="tag tag--primary tag--small" href="https://datacodestudy.github.io/www/tags/tag2/">tag2</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/image-processing/" data-tooltip="Image Processing">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/05/calculus-master-1/" data-tooltip="Calculus Master 1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 datacodestudy. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/image-processing/" data-tooltip="Image Processing">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/05/calculus-master-1/" data-tooltip="Calculus Master 1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://datacodestudy.github.io/www/2020/06/c-/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fc-%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fc-%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fc-%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">datacodestudy</h4>
+    
+      <div id="about-card-bio"><strong>stay curious</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Student
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://datacodestudy.github.io/www/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://datacodestudy.github.io/www/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/datacodestudy.github.io\/www\/2020\/06\/c-\/';
+          
+            this.page.identifier = '\/2020\/06\/c-\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

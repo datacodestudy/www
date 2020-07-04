@@ -3,6 +3,116 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://datacodestudy.github.io/www/categories/assignment/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/assignment/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/post/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/studium/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/sys40/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/06/systemdynamik/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/</loc>
+    <lastmod>2020-06-20T17:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/06/bildverarbeitung/</loc>
+    <lastmod>2020-06-14T12:59:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/rob02/</loc>
+    <lastmod>2020-06-14T12:59:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/category/</loc>
+    <lastmod>2020-06-09T22:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/</loc>
+    <lastmod>2020-06-09T22:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/subcategory/</loc>
+    <lastmod>2020-06-09T22:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/tag1/</loc>
+    <lastmod>2020-06-09T22:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/tag2/</loc>
+    <lastmod>2020-06-09T22:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/image/</loc>
+    <lastmod>2020-06-08T14:52:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/image-processing/</loc>
+    <lastmod>2020-06-08T14:52:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/06/image-processing/</loc>
+    <lastmod>2020-06-08T14:52:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/tags/processing/</loc>
+    <lastmod>2020-06-08T14:52:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/2020/06/c-/</loc>
+    <lastmod>2020-06-07T00:16:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datacodestudy.github.io/www/categories/c&#43;&#43;/</loc>
+    <lastmod>2020-06-07T00:16:39+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://datacodestudy.github.io/www/categories/calculus/</loc>
     <lastmod>2020-05-29T09:10:07+02:00</lastmod>
   </url>
@@ -18,57 +128,12 @@
   </url>
   
   <url>
-    <loc>https://datacodestudy.github.io/www/categories/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/post/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/subcategory/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/tag2/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/</loc>
-    <lastmod>2020-05-29T09:10:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/assignment/</loc>
-    <lastmod>2020-05-25T22:43:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/assignment/</loc>
-    <lastmod>2020-05-25T22:43:04+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://datacodestudy.github.io/www/tags/kon24/</loc>
     <lastmod>2020-05-25T22:43:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://datacodestudy.github.io/www/2020/05/konstruktionsbericht-kosmetikmaschine/</loc>
-    <lastmod>2020-05-25T22:43:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/categories/studium/</loc>
     <lastmod>2020-05-25T22:43:04+02:00</lastmod>
   </url>
   
@@ -128,11 +193,6 @@
   </url>
   
   <url>
-    <loc>https://datacodestudy.github.io/www/tags/tag1/</loc>
-    <lastmod>2020-05-20T22:31:13+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://datacodestudy.github.io/www/categories/demo/</loc>
     <lastmod>2020-05-19T15:44:26+02:00</lastmod>
   </url>
@@ -149,16 +209,6 @@
   
   <url>
     <loc>https://datacodestudy.github.io/www/2020/05/bildbearbeitung-und-bildkorrektur/</loc>
-    <lastmod>2020-05-19T13:37:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/rob02/</loc>
-    <lastmod>2020-05-19T13:37:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://datacodestudy.github.io/www/tags/sys40/</loc>
     <lastmod>2020-05-19T13:37:01+02:00</lastmod>
   </url>
   

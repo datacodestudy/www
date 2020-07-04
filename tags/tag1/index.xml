@@ -6,10 +6,30 @@
     <description>Recent content in tag1 on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2020 22:31:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 22:16:18 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Petrinetz - Einleitung</title>
+      <link>https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/</guid>
+      <description>&lt;p&gt;Eine Einleitug in die Petri-Netze&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://datacodestudy.github.io/www/2020/06/c-/</link>
+      <pubDate>Sun, 07 Jun 2020 00:16:39 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/2020/06/c-/</guid>
+      <description>&lt;h1 id=&#34;workshop-of-packt&#34;&gt;Workshop of Packt&lt;/h1&gt;
+&lt;h2 id=&#34;welcome-to-the-c-workshop&#34;&gt;Welcome to The C++ Workshop&lt;/h2&gt;
+&lt;p&gt;Thank you for purchasing The C++ Workshop! Before we get started we just need to explain some of the unique features of the course, and run through installation and setup for your local environment.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Python</title>

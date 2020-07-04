@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Study website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2020 09:10:07 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 17:28:51 +0200</lastBuildDate>
     
 	<atom:link href="https://datacodestudy.github.io/www/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>assignment</title>
+      <link>https://datacodestudy.github.io/www/tags/assignment/</link>
+      <pubDate>Sat, 20 Jun 2020 17:28:51 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sys40</title>
+      <link>https://datacodestudy.github.io/www/tags/sys40/</link>
+      <pubDate>Sat, 20 Jun 2020 17:28:51 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/sys40/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rob02</title>
+      <link>https://datacodestudy.github.io/www/tags/rob02/</link>
+      <pubDate>Sun, 14 Jun 2020 12:59:32 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/rob02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag1</title>
+      <link>https://datacodestudy.github.io/www/tags/tag1/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag2</title>
+      <link>https://datacodestudy.github.io/www/tags/tag2/</link>
+      <pubDate>Tue, 09 Jun 2020 22:16:18 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>https://datacodestudy.github.io/www/tags/image/</link>
+      <pubDate>Mon, 08 Jun 2020 14:52:50 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>processing</title>
+      <link>https://datacodestudy.github.io/www/tags/processing/</link>
+      <pubDate>Mon, 08 Jun 2020 14:52:50 +0200</pubDate>
+      
+      <guid>https://datacodestudy.github.io/www/tags/processing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>calculus</title>
@@ -17,24 +80,6 @@
       <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/calculus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag2</title>
-      <link>https://datacodestudy.github.io/www/tags/tag2/</link>
-      <pubDate>Fri, 29 May 2020 09:10:07 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>assignment</title>
-      <link>https://datacodestudy.github.io/www/tags/assignment/</link>
-      <pubDate>Mon, 25 May 2020 22:43:04 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/assignment/</guid>
       <description></description>
     </item>
     
@@ -71,33 +116,6 @@
       <pubDate>Thu, 21 May 2020 11:58:01 +0200</pubDate>
       
       <guid>https://datacodestudy.github.io/www/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag1</title>
-      <link>https://datacodestudy.github.io/www/tags/tag1/</link>
-      <pubDate>Wed, 20 May 2020 22:31:13 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/tag1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rob02</title>
-      <link>https://datacodestudy.github.io/www/tags/rob02/</link>
-      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/rob02/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sys40</title>
-      <link>https://datacodestudy.github.io/www/tags/sys40/</link>
-      <pubDate>Tue, 19 May 2020 13:37:01 +0200</pubDate>
-      
-      <guid>https://datacodestudy.github.io/www/tags/sys40/</guid>
       <description></description>
     </item>
     

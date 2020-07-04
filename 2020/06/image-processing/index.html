@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.73.0 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="datacodestudy">
+<meta name="keywords" content="tech">
+<meta name="description" content="My examples for image processing&hellip;">
+
+
+<meta property="og:description" content="My examples for image processing&hellip;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Image Processing">
+<meta name="twitter:title" content="Image Processing">
+<meta property="og:url" content="https://datacodestudy.github.io/www/2020/06/image-processing/">
+<meta property="twitter:url" content="https://datacodestudy.github.io/www/2020/06/image-processing/">
+<meta property="og:site_name" content="Study website">
+<meta property="og:description" content="My examples for image processing&hellip;">
+<meta name="twitter:description" content="My examples for image processing&hellip;">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-06-08T14:52:50">
+  
+  
+    <meta property="article:modified_time" content="2020-06-08T14:52:50">
+  
+  
+  
+    
+      <meta property="article:section" content="Image Processing">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="image">
+    
+      <meta property="article:tag" content="processing">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png">
+
+
+    <title>Image Processing</title>
+
+    <link rel="icon" href="https://datacodestudy.github.io/www/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://datacodestudy.github.io/www/2020/06/image-processing/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://datacodestudy.github.io/www/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://datacodestudy.github.io/www/">Study website</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://datacodestudy.github.io/www/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://datacodestudy.github.io/www/#about">
+          <img class="sidebar-profile-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">datacodestudy</h4>
+        
+          <h5 class="sidebar-profile-bio"><strong>stay curious</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://datacodestudy.github.io/www/categories/projects/">
+    
+      <i class="sidebar-button-icon fa fa-terminal"></i>
+      
+      <span class="sidebar-button-desc">Projects</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/datacodestudy" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Image Processing
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-06-08T14:52:50&#43;02:00">
+        
+  June 8, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://datacodestudy.github.io/www/categories/image-processing">Image Processing</a>, 
+    
+      <a class="category-link" href="https://datacodestudy.github.io/www/categories/subcategory">subcategory</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>My examples for image processing&hellip;</p>
+<h3 id="example-11">Example 1.1</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imfinfo(<span style="color:#e6db74">&#39;image.tif&#39;</span>)
+
+<span style="color:#75715e">% Query the image that is availabe with Matlab</span>
+<span style="color:#75715e">% iminfo provides information</span>
+<span style="color:#75715e">% ColorType is gray scale, width is 256 ... etc.</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">I1=imread(<span style="color:#e6db74">&#39;image.tif&#39;</span>);
+<span style="color:#75715e">% Read in the TIF format image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imwrite(I1,<span style="color:#e6db74">&#39;image.jpg&#39;</span>,<span style="color:#e6db74">&#39;jpg&#39;</span>);
+<span style="color:#75715e">% Write the resulting array I1 to disk as a JPEG image </span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imfinfo(<span style="color:#e6db74">&#39;image.jpg&#39;</span>)
+<span style="color:#75715e">% Quarey the resulting disk image</span>
+<span style="color:#75715e">% Note changes in storage size, etc.</span>
+</code></pre></div><h3 id="example-12">Example 1.2</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">A=imread(<span style="color:#e6db74">&#39;image.tif&#39;</span>);
+<span style="color:#75715e">% Read in intensity image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imshow(A);
+<span style="color:#75715e">% First display image using imshow</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imagesc(A);
+<span style="color:#75715e">% Next display image using imagesc</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">axis iamge;
+<span style="color:#75715e">% Correct aspect ratio of displayed image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">axis off;
+<span style="color:#75715e">% Turn off the axis labelling</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">colormap(gray);
+<span style="color:#75715e">% Display intensity image in grey scale</span>
+</code></pre></div><h3 id="example-13">Example 1.3</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">B=rand(<span style="color:#ae81ff">256</span>)<span style="color:#f92672">.*</span><span style="color:#ae81ff">1000</span>;
+<span style="color:#75715e">% Generate random image array in range 0 1000</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imshow(B);
+<span style="color:#75715e">% Poor contrast results using imshow because data </span>
+<span style="color:#75715e">% exceeds expected range</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imagesc(B);
+axis image; axis off;
+colormap(gray); colorbar;
+<span style="color:#75715e">% imagesc automatically scales colourmap to data range</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imshow(B,[<span style="color:#ae81ff">1000</span>]);
+<span style="color:#75715e">% But if we specify range of data explicitly then </span>
+<span style="color:#75715e">% imshow also displays correct image contrast</span>
+</code></pre></div><h3 id="example-14">Example 1.4</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">B=imread(<span style="color:#e6db74">&#39;cell.tif&#39;</span>);
+<span style="color:#75715e">% Read in 8 bit intensity image of cell</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">C=imread(<span style="color:#e6db74">&#39;spine.tif&#39;</span>);
+<span style="color:#75715e">% Read in 8 bit intensity image of spine</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">D=imread(<span style="color:#e6db74">&#39;onion.png&#39;</span>);
+<span style="color:#75715e">% Read in 8 bit colour image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">subplot(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>; imagesc(B); axis image;
+axis off; colormap(gray);
+<span style="color:#75715e">% Creates a 3x1 mosaic of plots</span>
+<span style="color:#75715e">% and display first image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">subplot(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>); imagesc(C); axis image;
+axis off; colormap(jet);
+<span style="color:#75715e">% Display second image</span>
+<span style="color:#75715e">% Set colormap to jet (false colour)</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">subplot(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>); imshow(D);
+<span style="color:#75715e">% Display third (colour) image</span>
+</code></pre></div><h3 id="example-15">Example 1.5</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">B=imread(<span style="color:#e6db74">&#39;cell.tif&#39;</span>);
+<span style="color:#75715e">% Read in 8 bit intensity image of cell</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imview(B);
+<span style="color:#75715e">% Examine grey scale image in interactive viewer</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">D=imread(<span style="color:#e6db74">&#39;onion.png&#39;</span>)
+<span style="color:#75715e">% Read in 8 bit colour image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">imview(B);
+Examine RGB image in interactive viewer
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">B(<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">50</span>)
+B(<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">50</span>)=<span style="color:#ae81ff">255</span>;
+imshow(B);
+<span style="color:#75715e">% Print pixel value at location (25,50)</span>
+<span style="color:#75715e">% Set pixel value at (25,50) to white</span>
+<span style="color:#75715e">% View resulting changes in image</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">D(<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">50</span>,;)
+D(<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">50</span>,<span style="color:#ae81ff">1</span>)
+D(<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">50</span>,:)=(<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">255</span>);
+imshow(D);
+<span style="color:#75715e">% Print RGB pixel value at location (25,50)</span>
+<span style="color:#75715e">% Print only the red value at (25,50)</span>
+<span style="color:#75715e">% Set pixel value to RGB white</span>
+<span style="color:#75715e">% View resulting changes in image</span>
+</code></pre></div><h3 id="example-16">Example 1.6</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Matlab" data-lang="Matlab">D=imread(<span style="color:#e6db74">&#39;onion.png&#39;</span>);
+<span style="color:#75715e">% Read in 8 bit RGB colour image</span>
+</code></pre></div>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://datacodestudy.github.io/www/tags/image/">image</a>
+
+  <a class="tag tag--primary tag--small" href="https://datacodestudy.github.io/www/tags/processing/">processing</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/" data-tooltip="Petrinetz - Einleitung">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/c-/" data-tooltip="C&#43;&#43;">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 datacodestudy. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/petrinetz-einleitung/" data-tooltip="Petrinetz - Einleitung">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://datacodestudy.github.io/www/2020/06/c-/" data-tooltip="C&#43;&#43;">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://datacodestudy.github.io/www/2020/06/image-processing/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fimage-processing%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fimage-processing%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fdatacodestudy.github.io%2Fwww%2F2020%2F06%2Fimage-processing%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://res.cloudinary.com/dropify/image/upload/v1589883179/g_izu3mn.png" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">datacodestudy</h4>
+    
+      <div id="about-card-bio"><strong>stay curious</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Student
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://datacodestudy.github.io/www/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://datacodestudy.github.io/www/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/datacodestudy.github.io\/www\/2020\/06\/image-processing\/';
+          
+            this.page.identifier = '\/2020\/06\/image-processing\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
